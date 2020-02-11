@@ -10,7 +10,6 @@
 
 ### SUMMARY
 I want to start a career as a JS programmer and improve my knowledge in the field of web development.
-I have such character traits as perseverance, determination, quick training, attentiveness and a great desire to learn new things
 
 ### SKILS
 + HTML
