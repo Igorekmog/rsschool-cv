@@ -17,13 +17,14 @@ body {
 }
 
 .header {
+    display: flex;
     justify-content: space-around;
     color: #ababab;
     background-color: #313131;
 }
 
 .profile-photo img {
-    margin: 80px;
+    margin: 80px 0;
 }
 
 .profile-info {
@@ -73,4 +74,91 @@ body {
 
 address {
     font-style: normal;
+}
+
+.main {
+    justify-content: space-around;
+    color: black;
+}
+
+.summary {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.summary-text {
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.skils {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;  
+}
+
+.skil-list {
+    padding-left: 45px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.code-examples {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.code-examples-text {
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.experience {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experience-text {
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.education {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.education-text {
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.english {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.english-text {
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
 }
