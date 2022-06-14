@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <nav class="navigation">
+                <ul class="navigation-menu">
+                    <li class="navigation-item"><a class="navigation-text" href="#SUMMARY">SUMMARY</a></li>
+                    <li class="navigation-item"><a class="navigation-text" href="#SKILLS">SKILLS</a></li>
+                    <li class="navigation-item"><a class="navigation-text" href="#Code-examples">Code examples</a></li>
+                    <li class="navigation-item"><a class="navigation-text" href="#EXPERIENCE">EXPERIENCE</a></li>
+                    <li class="navigation-item"><a class="navigation-text" href="#EDUCATION">EDUCATION</a></li>
+                    <li class="navigation-item"><a class="navigation-text" href="#ENGLISH">ENGLISH</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+            <div class="profile-photo">
+                <img src="images/myphoto.JPG" alt="photo" width="350" height="350">
+            </div>
+
+            <div class="profile-info">
+                <h1 class="heading heading-light">
+                    Igor Bondarenko
+                </h1>
+
+                <p class="profile-text">
+                    Hello! I’m student at The Rolling Scopes School.
+                </p>
+
+                <div class="contacts">
+                    <div class="contacts-item">
+                        <h2 class="contacts-title">
+                             Phone
+                        </h2>
+                        <a class="contacts-text" href="tel:+375298438164">+375 (29) 843 81 64</a>
+                    </div>
+                    <div class="contacts-item">
+                        <h2 class="contacts-title">
+                            Email
+                        </h2>
+                        <a class="contacts-text" href="mailto:m19_bond@tut.by">m19_bond@tut.by</a>
+                    </div>
+                    <div class="contacts-item">
+                        <h2 class="contacts-title">
+                            Telegram
+                        </h2>
+                        <a class="contacts-text" href="https://t.me/Igorekmog">@Igorekmog</a>
+                    </div>
+                    <div class="contacts-item">
+                        <h2 class="contacts-title">
+                            Home
+                        </h2>
+                        <address class="contacts-text">Grodno, Belarus</address>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        <main class="main">
+            <div>
+                <h2 class="summary" id="SUMMARY">SUMMARY</h2>
+                <p class="summary-text">I want to start a career as a JS programmer and improve my knowledge in the field of web development.</p>
+            </div>
+            <div>
+                <h2 class="skils" id="SKILLS">SKILLS</h2>
+                <ul class="skil-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="code-examples" id="Code-examples">Code examples</h2>
+                <pre class="code-examples-text"><code>module.exports = function reverse (n) { 
+                    n=String(Math.abs(n));
+                    return Number(n.split('').reverse().join(''));
+                  }</code></pre>
+            </div>
+            <div>
+                <h2 class="experience" id="EXPERIENCE">EXPERIENCE</h2>
+                <p class="experience-text">I have experience only in styding project like course projects. For example you can see my <a class="Singolo" href="https://igorekmog.github.io/singolo/">Singolo</a> project</p>
+            </div>
+            <div>
+                <h2 class="education" id="EDUCATION">EDUCATION</h2>
+                <p class="education-text">Belarusian-Russian University "Automated information processing system" faculty</p>
+            </div>
+            <div>
+                <h2 class="english" id="ENGLISH">ENGLISH</h2>
+                <p  class="english-text">Pre-Intermediate (A2), but I keep learning English.</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-links">
+                <a class="github" href="https://github.com/Igorekmog">My github link</a>
+                <a class="rs_school" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_js" width="200" height="50">
+                </a>
+            </div>
+            <p class="footer-year">2022</p>
+        </footer>
+    </div>
+</body>
+</html>
