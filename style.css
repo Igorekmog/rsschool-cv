@@ -244,3 +244,9 @@ address {
  .footer{
     background-color: antiquewhite;
  }
+
+ .Singolo{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+ }
